@@ -8,11 +8,6 @@ const {
   deleteUserById,
 } = require("../../controllers/api/users");
 
-const {
-  createNewFriend,
-  deleteFriend,
-} = require("../../controllers/api/friends");
-
 const router = Router();
 
 router.get("/", getAllUsers);
