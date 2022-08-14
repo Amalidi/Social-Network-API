@@ -39,3 +39,10 @@ git clone git@github.com:Amalidi/Social-Network-API.git
 cd Social-Network-API
 npm i
 ```
+
+### Run Application
+
+```
+npm run seed
+npm run start
+```
