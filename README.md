@@ -20,3 +20,22 @@ AS A social media startup
 I WANT an API for my social network that uses a NoSQL database
 SO THAT my website can handle large amounts of unstructured data
 ```
+
+## Technologies Used
+
+- JavaScript
+- Node JS
+- NoSQL - MongoDB
+- Mongoose
+- Moment
+- Express
+
+## Getting Started
+
+### Installation
+
+```
+git clone git@github.com:Amalidi/Social-Network-API.git
+cd Social-Network-API
+npm i
+```
