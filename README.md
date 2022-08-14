@@ -1,2 +1,10 @@
 # Social-Network-API
-An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. 
+
+## Table of Contents
+
+- [Description](#description)
+- [User Story](#user-story)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Demo Video](#demo-video)
+- [Questions](#questions)
