@@ -27,6 +27,17 @@
   },
 
   {
+    "thoughtText": "The future is better than what happened in the past.",
+    "userName": "Koropica",
+    "reactions": [
+      {
+        "reactionBody": "very well ",
+        "userName": "Hunter"
+      }
+    ]
+  },
+
+  {
     "thoughtText": "The future belongs to those who believe in the beauty of their dreams",
     "userName": "jungleOn",
     "reactions": [

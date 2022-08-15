@@ -12,17 +12,18 @@ const getAllThoughts = async (req, res) => {
 
 const getThoughtById = async (req, res) => {
   try {
-    const { thoughtId } = req.params;
+    const { id } = req.params;
 
-    const getThought = await Thoughts.findById(thoughtId);
+    const getThought = await Thoughts.findOne({ _id: id });
 
     if (!getThought) {
       return res.status(404).json({ success: false });
     }
-
-    return res.json({ data: getThought });
+    res.status(200).json({ success: true, getThought });
   } catch (error) {
-    console.log(`[Error]: Failed to get thought | ${error.message}`);
+    console.log(error);
+
+    return res.status(500).json({ success: false });
   }
 };
 
@@ -66,15 +67,15 @@ const updateThought = async (req, res) => {
 
 const deleteThought = async (req, res) => {
   try {
-    const { thoughtId } = req.params;
+    const { id } = req.params;
 
-    // delete the thought
-    await Thoughts.findByIdAndDelete(thoughtId);
-
-    return res.json({ success: true });
+    await Thoughts.findByIdAndDelete({ _id: id });
+    return res
+      .status(200)
+      .json({ success: true, message: "Successfully deleted thought" });
   } catch (error) {
     console.log(`[ERROR]: Failed to delete thought | ${error.message}`);
-    return res.status(500).json({ success: false, error: error.message });
+    return res.status(500).json({ error: "Failed to delete thought" });
   }
 };
 
