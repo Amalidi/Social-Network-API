@@ -1,0 +1,60 @@
+[
+  {
+    "thoughtText": "Its up to me how a plan out my future",
+    "userName": "Maryam",
+    "reactions": [
+      {
+        "reactionBody": "That's right!, That's right!",
+        "userName": "Llp12"
+      }
+    ]
+  },
+
+  {
+    "thoughtText": "You must do the things you think you cannot do.",
+    "userName": "Katsu",
+    "reactions": [
+      {
+        "reactionBody": "Thats interesting ",
+        "userName": "shadow"
+      },
+
+      {
+        "reactionBody": " True, True ",
+        "userName": "ice45"
+      }
+    ]
+  },
+
+  {
+    "thoughtText": "The future is better than what happened in the past.",
+    "userName": "Koropica",
+    "reactions": [
+      {
+        "reactionBody": "very well ",
+        "userName": "Hunter"
+      }
+    ]
+  },
+
+  {
+    "thoughtText": "The future belongs to those who believe in the beauty of their dreams",
+    "userName": "jungleOn",
+    "reactions": [
+      {
+        "reactionBody": "I believe that in many cases",
+        "userName": "Leorio"
+      },
+
+      {
+        "reactionBody": "It aslo belongs to those who prepare for it today",
+        "userName": "Killua"
+      },
+
+      {
+        "reactionBody": "I agree",
+        "userName": "Kite"
+      }
+    ]
+  }
+]
